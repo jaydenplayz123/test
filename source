@@ -1,0 +1,447 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local Owner = Instance.new("TextButton")
+local DP = Instance.new("TextButton")
+local Phoenix = Instance.new("TextButton")
+local Wanda = Instance.new("TextButton")
+local Wiccan = Instance.new("TextButton")
+local Speed = Instance.new("TextButton")
+local Rogue = Instance.new("TextButton")
+local Strange = Instance.new("TextButton")
+local StormS = Instance.new("TextButton")
+local Storm = Instance.new("TextButton")
+local Emma = Instance.new("TextButton")
+local Jean = Instance.new("TextButton")
+local JeanS = Instance.new("TextButton")
+local Magik = Instance.new("TextButton")
+local Jubilee = Instance.new("TextButton")
+local Pixie = Instance.new("TextButton")
+local Widow = Instance.new("TextButton")
+local Psylocke = Instance.new("TextButton")
+local JXPLOIT = Instance.new("TextLabel")
+local MU = Instance.new("TextLabel")
+local Middle = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+main.Position = UDim2.new(0.194095939, 0, 0.35321635, 0)
+main.Size = UDim2.new(0, 447, 0, 376)
+main.Active = true
+main.Draggable = true
+
+UICorner.Parent = main
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(177, 67, 255)), ColorSequenceKeypoint.new(0.45, Color3.fromRGB(102, 70, 170)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(99, 88, 255))}
+UIGradient.Parent = main
+
+Owner.Name = "Owner"
+Owner.Parent = main
+Owner.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Owner.Position = UDim2.new(0.0201342274, 0, 0.127659574, 0)
+Owner.Size = UDim2.new(0, 130, 0, 34)
+Owner.Font = Enum.Font.SourceSans
+Owner.Text = "Owners Phoenix"
+Owner.TextColor3 = Color3.fromRGB(0, 0, 0)
+Owner.TextScaled = true
+Owner.TextSize = 14.000
+Owner.TextWrapped = true
+Owner.MouseButton1Down:connect(function()
+
+	local A_1 = "Owner's Phoenix"
+	local A_2 = "STOP_EXPLOITING"
+	local Event = game:GetService("ReplicatedStorage").SetSubject
+	Event:FireServer(A_1, A_2)
+
+end)
+
+DP.Name = "DP"
+DP.Parent = main
+DP.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DP.Position = UDim2.new(0.0201342274, 0, 0.271276593, 0)
+DP.Size = UDim2.new(0, 130, 0, 34)
+DP.Font = Enum.Font.SourceSans
+DP.Text = "Dark Phoenix"
+DP.TextColor3 = Color3.fromRGB(0, 0, 0)
+DP.TextScaled = true
+DP.TextSize = 14.000
+DP.TextWrapped = true
+DP.MouseButton1Down:connect(function()
+
+	local A_1 = "Dark Phoenix"
+	local A_2 = "STOP_EXPLOITING"
+	local Event = game:GetService("ReplicatedStorage").SetSubject
+	Event:FireServer(A_1, A_2)
+
+end)
+
+Phoenix.Name = "Phoenix"
+Phoenix.Parent = main
+Phoenix.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Phoenix.Position = UDim2.new(0.0201342274, 0, 0.417553186, 0)
+Phoenix.Size = UDim2.new(0, 130, 0, 34)
+Phoenix.Font = Enum.Font.SourceSans
+Phoenix.Text = "Phoenix"
+Phoenix.TextColor3 = Color3.fromRGB(0, 0, 0)
+Phoenix.TextScaled = true
+Phoenix.TextSize = 14.000
+Phoenix.TextWrapped = true
+Phoenix.MouseButton1Down:connect(function()
+
+	local A_1 = "Phoenix"
+	local A_2 = "STOP_EXPLOITING"
+	local Event = game:GetService("ReplicatedStorage").SetSubject
+	Event:FireServer(A_1, A_2)
+
+end)
+
+Wanda.Name = "Wanda"
+Wanda.Parent = main
+Wanda.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Wanda.Position = UDim2.new(0.0201342274, 0, 0.566489339, 0)
+Wanda.Size = UDim2.new(0, 130, 0, 34)
+Wanda.Font = Enum.Font.SourceSans
+Wanda.Text = "Wanda"
+Wanda.TextColor3 = Color3.fromRGB(0, 0, 0)
+Wanda.TextScaled = true
+Wanda.TextSize = 14.000
+Wanda.TextWrapped = true
+Wanda.MouseButton1Down:connect(function()
+
+	local A_1 = "Scarlet Witch"
+	local A_2 = "STOP_EXPLOITING"
+	local Event = game:GetService("ReplicatedStorage").SetSubject
+	Event:FireServer(A_1, A_2)
+
+end)
+
+Wiccan.Name = "Wiccan"
+Wiccan.Parent = main
+Wiccan.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Wiccan.Position = UDim2.new(0.0201342274, 0, 0.718085051, 0)
+Wiccan.Size = UDim2.new(0, 130, 0, 34)
+Wiccan.Font = Enum.Font.SourceSans
+Wiccan.Text = "Wiccan"
+Wiccan.TextColor3 = Color3.fromRGB(0, 0, 0)
+Wiccan.TextScaled = true
+Wiccan.TextSize = 14.000
+Wiccan.TextWrapped = true
+Wiccan.MouseButton1Down:connect(function()
+
+	local A_1 = "Wiccan"
+	local A_2 = "STOP_EXPLOITING"
+	local Event = game:GetService("ReplicatedStorage").SetSubject
+	Event:FireServer(A_1, A_2)
+
+end)
+
+Speed.Name = "Speed"
+Speed.Parent = main
+Speed.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Speed.Position = UDim2.new(0.0201342274, 0, 0.853723347, 0)
+Speed.Size = UDim2.new(0, 130, 0, 34)
+Speed.Font = Enum.Font.SourceSans
+Speed.Text = "Speed"
+Speed.TextColor3 = Color3.fromRGB(0, 0, 0)
+Speed.TextScaled = true
+Speed.TextSize = 14.000
+Speed.TextWrapped = true
+Speed.MouseButton1Down:connect(function()
+
+	local A_1 = "Speed"
+	local A_2 = "STOP_EXPLOITING"
+	local Event = game:GetService("ReplicatedStorage").SetSubject
+	Event:FireServer(A_1, A_2)
+
+end)
+
+Rogue.Name = "Rogue"
+Rogue.Parent = main
+Rogue.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Rogue.Position = UDim2.new(0.353467584, 0, 0.127659574, 0)
+Rogue.Size = UDim2.new(0, 130, 0, 34)
+Rogue.Font = Enum.Font.SourceSans
+Rogue.Text = "Rogue"
+Rogue.TextColor3 = Color3.fromRGB(0, 0, 0)
+Rogue.TextScaled = true
+Rogue.TextSize = 14.000
+Rogue.TextWrapped = true
+Rogue.MouseButton1Down:connect(function()
+
+	local A_1 = "Rogue"
+	local A_2 = "STOP_EXPLOITING"
+	local Event = game:GetService("ReplicatedStorage").SetSubject
+	Event:FireServer(A_1, A_2)
+
+end)
+
+Strange.Name = "Strange"
+Strange.Parent = main
+Strange.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Strange.Position = UDim2.new(0.353467584, 0, 0.271276593, 0)
+Strange.Size = UDim2.new(0, 130, 0, 34)
+Strange.Font = Enum.Font.SourceSans
+Strange.Text = "Dr Strange"
+Strange.TextColor3 = Color3.fromRGB(0, 0, 0)
+Strange.TextScaled = true
+Strange.TextSize = 14.000
+Strange.TextWrapped = true
+Strange.MouseButton1Down:connect(function()
+
+	local A_1 = "Doctor Strange"
+	local A_2 = "STOP_EXPLOITING"
+	local Event = game:GetService("ReplicatedStorage").SetSubject
+	Event:FireServer(A_1, A_2)
+
+end)
+
+StormS.Name = "StormS"
+StormS.Parent = main
+StormS.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+StormS.Position = UDim2.new(0.353467584, 0, 0.417553186, 0)
+StormS.Size = UDim2.new(0, 130, 0, 34)
+StormS.Font = Enum.Font.SourceSans
+StormS.Text = "Storm Skin"
+StormS.TextColor3 = Color3.fromRGB(0, 0, 0)
+StormS.TextScaled = true
+StormS.TextSize = 14.000
+StormS.TextWrapped = true
+StormS.MouseButton1Down:connect(function()
+
+	local A_1 = "Santa Storm"
+	local A_2 = "STOP_EXPLOITING"
+	local Event = game:GetService("ReplicatedStorage").SetSubject
+	Event:FireServer(A_1, A_2)
+
+end)
+
+Storm.Name = "Storm"
+Storm.Parent = main
+Storm.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Storm.Position = UDim2.new(0.353467584, 0, 0.566489339, 0)
+Storm.Size = UDim2.new(0, 130, 0, 34)
+Storm.Font = Enum.Font.SourceSans
+Storm.Text = "Storm"
+Storm.TextColor3 = Color3.fromRGB(0, 0, 0)
+Storm.TextScaled = true
+Storm.TextSize = 14.000
+Storm.TextWrapped = true
+Storm.MouseButton1Down:connect(function()
+
+	local A_1 = "Storm"
+	local A_2 = "STOP_EXPLOITING"
+	local Event = game:GetService("ReplicatedStorage").SetSubject
+	Event:FireServer(A_1, A_2)
+
+end)
+
+Emma.Name = "Emma"
+Emma.Parent = main
+Emma.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Emma.Position = UDim2.new(0.353467584, 0, 0.718085051, 0)
+Emma.Size = UDim2.new(0, 130, 0, 34)
+Emma.Font = Enum.Font.SourceSans
+Emma.Text = "Emma"
+Emma.TextColor3 = Color3.fromRGB(0, 0, 0)
+Emma.TextScaled = true
+Emma.TextSize = 14.000
+Emma.TextWrapped = true
+Emma.MouseButton1Down:connect(function()
+
+	local A_1 = "Emma Frost"
+	local A_2 = "STOP_EXPLOITING"
+	local Event = game:GetService("ReplicatedStorage").SetSubject
+	Event:FireServer(A_1, A_2)
+
+end)
+
+Jean.Name = "Jean"
+Jean.Parent = main
+Jean.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Jean.Position = UDim2.new(0.353467584, 0, 0.853723347, 0)
+Jean.Size = UDim2.new(0, 130, 0, 34)
+Jean.Font = Enum.Font.SourceSans
+Jean.Text = "Jean"
+Jean.TextColor3 = Color3.fromRGB(0, 0, 0)
+Jean.TextScaled = true
+Jean.TextSize = 14.000
+Jean.TextWrapped = true
+Jean.MouseButton1Down:connect(function()
+
+	local A_1 = "Jean"
+	local A_2 = "STOP_EXPLOITING"
+	local Event = game:GetService("ReplicatedStorage").SetSubject
+	Event:FireServer(A_1, A_2)
+
+end)
+
+JeanS.Name = "JeanS"
+JeanS.Parent = main
+JeanS.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JeanS.Position = UDim2.new(0.686800957, 0, 0.127659574, 0)
+JeanS.Size = UDim2.new(0, 130, 0, 34)
+JeanS.Font = Enum.Font.SourceSans
+JeanS.Text = "Jean Skin (Gwen)"
+JeanS.TextColor3 = Color3.fromRGB(0, 0, 0)
+JeanS.TextScaled = true
+JeanS.TextSize = 14.000
+JeanS.TextWrapped = true
+JeanS.MouseButton1Down:connect(function()
+
+	local A_1 = "Gwen"
+	local A_2 = "STOP_EXPLOITING"
+	local Event = game:GetService("ReplicatedStorage").SetSubject
+	Event:FireServer(A_1, A_2)
+
+end)
+
+Magik.Name = "Magik"
+Magik.Parent = main
+Magik.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Magik.Position = UDim2.new(0.686800957, 0, 0.271276593, 0)
+Magik.Size = UDim2.new(0, 130, 0, 34)
+Magik.Font = Enum.Font.SourceSans
+Magik.Text = "Magik"
+Magik.TextColor3 = Color3.fromRGB(0, 0, 0)
+Magik.TextScaled = true
+Magik.TextSize = 14.000
+Magik.TextWrapped = true
+Magik.MouseButton1Down:connect(function()
+
+	local A_1 = "Magik"
+	local A_2 = "STOP_EXPLOITING"
+	local Event = game:GetService("ReplicatedStorage").SetSubject
+	Event:FireServer(A_1, A_2)
+
+end)
+
+Jubilee.Name = "Jubilee"
+Jubilee.Parent = main
+Jubilee.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Jubilee.Position = UDim2.new(0.686800957, 0, 0.417553186, 0)
+Jubilee.Size = UDim2.new(0, 130, 0, 34)
+Jubilee.Font = Enum.Font.SourceSans
+Jubilee.Text = "Jubilee"
+Jubilee.TextColor3 = Color3.fromRGB(0, 0, 0)
+Jubilee.TextScaled = true
+Jubilee.TextSize = 14.000
+Jubilee.TextWrapped = true
+Jubilee.MouseButton1Down:connect(function()
+
+	local A_1 = "Jubilee"
+	local A_2 = "STOP_EXPLOITING"
+	local Event = game:GetService("ReplicatedStorage").SetSubject
+	Event:FireServer(A_1, A_2)
+
+end)
+
+Pixie.Name = "Pixie"
+Pixie.Parent = main
+Pixie.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Pixie.Position = UDim2.new(0.686800957, 0, 0.566489339, 0)
+Pixie.Size = UDim2.new(0, 130, 0, 34)
+Pixie.Font = Enum.Font.SourceSans
+Pixie.Text = "Pixie"
+Pixie.TextColor3 = Color3.fromRGB(0, 0, 0)
+Pixie.TextScaled = true
+Pixie.TextSize = 14.000
+Pixie.TextWrapped = true
+Pixie.MouseButton1Down:connect(function()
+
+	local A_1 = "Pixie"
+	local A_2 = "STOP_EXPLOITING"
+	local Event = game:GetService("ReplicatedStorage").SetSubject
+	Event:FireServer(A_1, A_2)
+
+end)
+
+Widow.Name = "Widow"
+Widow.Parent = main
+Widow.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Widow.Position = UDim2.new(0.686800957, 0, 0.718085051, 0)
+Widow.Size = UDim2.new(0, 130, 0, 34)
+Widow.Font = Enum.Font.SourceSans
+Widow.Text = "Black Widow"
+Widow.TextColor3 = Color3.fromRGB(0, 0, 0)
+Widow.TextScaled = true
+Widow.TextSize = 14.000
+Widow.TextWrapped = true
+Widow.MouseButton1Down:connect(function()
+
+	local A_1 = "Black Widow"
+	local A_2 = "STOP_EXPLOITING"
+	local Event = game:GetService("ReplicatedStorage").SetSubject
+	Event:FireServer(A_1, A_2)
+
+end)
+
+Psylocke.Name = "Psylocke"
+Psylocke.Parent = main
+Psylocke.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Psylocke.Position = UDim2.new(0.686800957, 0, 0.853723347, 0)
+Psylocke.Size = UDim2.new(0, 130, 0, 34)
+Psylocke.Font = Enum.Font.SourceSans
+Psylocke.Text = "Psylocke"
+Psylocke.TextColor3 = Color3.fromRGB(0, 0, 0)
+Psylocke.TextScaled = true
+Psylocke.TextSize = 14.000
+Psylocke.TextWrapped = true
+Psylocke.MouseButton1Down:connect(function()
+
+	local A_1 = "Psylocke"
+	local A_2 = "STOP_EXPLOITING"
+	local Event = game:GetService("ReplicatedStorage").SetSubject
+	Event:FireServer(A_1, A_2)
+
+end)
+
+JXPLOIT.Name = "JXPLOIT"
+JXPLOIT.Parent = main
+JXPLOIT.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JXPLOIT.BackgroundTransparency = 1.000
+JXPLOIT.Position = UDim2.new(0.476510048, 0, 0, 0)
+JXPLOIT.Size = UDim2.new(0, 200, 0, 36)
+JXPLOIT.Font = Enum.Font.SourceSans
+JXPLOIT.Text = "JXPLOIT"
+JXPLOIT.TextColor3 = Color3.fromRGB(0, 0, 0)
+JXPLOIT.TextScaled = true
+JXPLOIT.TextSize = 14.000
+JXPLOIT.TextWrapped = true
+
+MU.Name = "MU"
+MU.Parent = main
+MU.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MU.BackgroundTransparency = 1.000
+MU.Position = UDim2.new(0.0201342106, 0, 0, 0)
+MU.Size = UDim2.new(0, 200, 0, 36)
+MU.Font = Enum.Font.SourceSans
+MU.Text = "Marvel Uprising"
+MU.TextColor3 = Color3.fromRGB(0, 0, 0)
+MU.TextScaled = true
+MU.TextSize = 14.000
+MU.TextWrapped = true
+
+Middle.Name = "Middle"
+Middle.Parent = main
+Middle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Middle.BackgroundTransparency = 1.000
+Middle.Position = UDim2.new(0.494407147, 0, 0.0132978857, 0)
+Middle.Size = UDim2.new(0, 32, 0, 31)
+Middle.Font = Enum.Font.SourceSans
+Middle.Text = "|"
+Middle.TextColor3 = Color3.fromRGB(0, 0, 0)
+Middle.TextScaled = true
+Middle.TextSize = 14.000
+Middle.TextWrapped = true
